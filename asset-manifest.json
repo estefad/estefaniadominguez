@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/estefaniadominguez/static/css/main.28b3baf8.css",
+    "main.js": "/estefaniadominguez/static/js/main.3d291543.js",
+    "static/js/787.ee25ef50.chunk.js": "/estefaniadominguez/static/js/787.ee25ef50.chunk.js",
+    "static/media/foto.jpg": "/estefaniadominguez/static/media/foto.9c2840691e1668e411cc.jpg",
+    "index.html": "/estefaniadominguez/index.html",
+    "main.28b3baf8.css.map": "/estefaniadominguez/static/css/main.28b3baf8.css.map",
+    "main.3d291543.js.map": "/estefaniadominguez/static/js/main.3d291543.js.map",
+    "787.ee25ef50.chunk.js.map": "/estefaniadominguez/static/js/787.ee25ef50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28b3baf8.css",
+    "static/js/main.3d291543.js"
+  ]
+}
