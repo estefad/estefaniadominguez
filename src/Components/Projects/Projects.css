@@ -1,0 +1,17 @@
+.nav{
+    margin-left: 1rem; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 1.2em;
+}
