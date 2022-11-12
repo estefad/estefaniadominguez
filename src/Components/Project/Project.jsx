@@ -5,7 +5,14 @@ const Project = () => {
   return (
     <>
     <Projects/>
-    <div>Project</div>
+    <div>
+      <h2></h2>
+      <ul>
+        <li><a href="'#'"></a></li>
+        <li><a href="'#'"></a></li>
+        <li><a href="'#'"></a></li>
+      </ul>
+    </div>
     </>
     
   )

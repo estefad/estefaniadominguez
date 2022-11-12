@@ -1,0 +1,16 @@
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.red{
+    width: 50px;
+    transition: all 1s;
+}
+
+.red:hover{
+    margin-top: -2rem;
+    border-radius: 50%;
+}
