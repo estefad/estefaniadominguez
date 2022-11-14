@@ -8,26 +8,24 @@ const Projects = () => {
     <>
     <div className='nav'>
         <div className="container-fluid">
-        <Link to={`/`}>
-        <a className='navbar-brand nav-link' href='"#"'>HOME</a>
+        <Link to={`/`} className='navbar-brand nav-link' href='"#"'>HOME
+        </Link>
+        </div>
+
+        {/* solo con link alcanza, ya que sino lo toma como <a> con hijo <a> y eso no se puede */}
+
+        <div className="container-fluid">
+        <Link to={`/Project`} className='navbar-brand nav-link' href='"#"'>PROJECTS
         </Link>
         </div>
 
         <div className="container-fluid">
-        <Link to={`/Project`}>
-        <a className='navbar-brand nav-link' href='"#"'>PROJECTS</a>
+        <Link to={`/Content`} className='navbar-brand nav-link' href='"#"'>ABILITIES
         </Link>
         </div>
 
         <div className="container-fluid">
-        <Link to={`/Content`}>
-        <a className='navbar-brand nav-link' href='"#"'>ABILITIES</a>
-        </Link>
-        </div>
-
-        <div className="container-fluid">
-        <Link to={`/Contact`}>
-        <a className='navbar-brand nav-link' href='"#"'>CONTACT</a>
+        <Link to={`/Contact`} className='navbar-brand nav-link' href='"#"'>CONTACT
         </Link>
         </div>
 
