@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Major+Mono+Display&family=Red+Hat+Mono:ital,wght@1,300&display=swap');
+
+.myList{
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    list-style-type: none;
+    padding: .5rem;
+}
+
+.pages{
+    width: 300px;
+    height: 180px;
+}
+
+.check{
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+}

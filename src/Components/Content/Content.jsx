@@ -40,7 +40,7 @@ const Content = () => {
             Hi!, i'm Frontend Developer, my job is to make your page sustainable, 
             interactive and user friendly. I have been in the world of development 
             for a couple of years, and always in continuous growth. On my landing you 
-            can see my work as a developer.
+            can see my work as a junior developer.
     </div>
         {!!items.length ?  items.map((item, id) => <div className='content' key={id}><img className='img' src={item.src} alt={item.alt}/></div>) : 
         <spinner className='spin'><BeatLoader color="#000000"/></spinner>}
