@@ -1,7 +1,7 @@
 {
   "name": "estefaniadominguez",
   "version": "0.1.0",
-  "homepage": "https://estefad.github.io/",
+  "homepage": "https://estefad.github.io/estefaniadominguez",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
