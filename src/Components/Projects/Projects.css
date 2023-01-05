@@ -8,6 +8,11 @@
 
 .nav-link{
     color: white;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    color: rgb(110, 91, 122);
 }
 
 a{

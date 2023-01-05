@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Projects.css'
-
+import 'animate.css';
 
 const Projects = () => {
   return (
     <>
-    <div className='nav'>
+    <div className='nav animate__animated animate__zoomIn'>
         <div className="container-fluid">
         <Link to={`/`} className='navbar-brand nav-link' href='"#"'>HOME
         </Link>
