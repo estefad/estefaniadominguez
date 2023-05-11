@@ -22,11 +22,11 @@ const Contact = () => {
       });
   };
 
-  const handleClick= () =>{
-    return(
-      <h2>Thanks for your message! I will response you soon</h2>
-    )
-  }
+  // const handleClick= () =>{
+  //   return(
+  //     <h2>Thanks for your message! I will response you soon</h2>
+  //   )
+  // }
 
   return (
     <>
@@ -43,7 +43,7 @@ const Contact = () => {
       <input type="email" name="user_email" className='form_text'/>
       <label>Your Message</label>
       <textarea name="message" className='form_area'/>
-      <input type="submit" value="Send" onChange={handleClick} />
+      <input type="submit" value="Send" />
     </form>
     </>
     
