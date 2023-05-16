@@ -38,12 +38,12 @@ const Contact = () => {
     </div>
     <form ref={form} onSubmit={sendEmail} className='form'>
       <label>Name</label>
-      <input type="text" name="user_name" className='form_text'/>
+      <input type="text" name="user_name" className='form_text' required/>
       <label>Email</label>
-      <input type="email" name="user_email" className='form_text'/>
+      <input type="email" name="user_email" className='form_text' required/>
       <label>Your Message</label>
-      <textarea name="message" className='form_area'/>
-      <input type="submit" value="Send" />
+      <textarea name="message" className='form_area' required/>
+      <input type="submit" value="Send" className='envia'/>
     </form>
     </>
     
