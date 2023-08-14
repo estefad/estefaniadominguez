@@ -19,3 +19,11 @@
     font-family: 'Red Hat Mono', monospace;
     color: white;
 }
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .myList {
+        display: block;
+        justify-content: center;
+        padding: 0;
+    }
+ }

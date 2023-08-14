@@ -20,3 +20,16 @@ a{
     font-family: 'Fira Sans Extra Condensed';
     font-size: 1.2em;
 }
+
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .text {
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    .img {
+        width: 95px;
+        height: 80px;
+    }
+ }

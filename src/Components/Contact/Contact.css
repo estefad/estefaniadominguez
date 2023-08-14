@@ -67,3 +67,15 @@
     background-color: rgb(111, 152, 179);
     width: 70px;
 }
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .form_text {
+        height: 25px;
+        width: 60%;
+    }
+
+    .form_area {
+        height: 80px !important;
+        width: 60% !important;
+    }
+ }
